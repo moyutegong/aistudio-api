@@ -40,3 +40,7 @@ repomix.config.*
 waa-signer/bin/
 waa-signer/.deps/
 
+# 本地构建缓存（Go / Zig 工具链，编译时重定向进仓库根目录）
+.gocache/
+.gotmp/
+.zigcache/
